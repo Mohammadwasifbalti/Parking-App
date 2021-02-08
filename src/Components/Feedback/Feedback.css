@@ -1,0 +1,28 @@
+.Feedback
+{
+    padding-top: 2vw;
+    text-align: center;
+}
+.feedbackfield
+{
+    width: 80%;
+    margin-bottom: 3vw !important;
+}
+.feedbackButtons
+{
+    width: 50%;
+    padding: 2vw 0 !important;
+    font-size: 1.1em !important;
+}
+.feedbackpopup 
+{
+background-color: rgb(162, 192, 30);
+padding: 2px;
+font-size: 1.1rem;
+position: absolute;
+width: 100%;
+transition: ease-in-out;
+transition-duration: 3s;
+color: rgb(37, 82, 1);
+z-index: 4;
+}

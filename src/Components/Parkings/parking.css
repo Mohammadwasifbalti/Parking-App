@@ -1,0 +1,21 @@
+.parkingplace
+{
+    height: 30vh;
+    width: 100% !important;
+    font-size: 1.8em !important;
+    border: 18px solid transparent !important;
+    background-color: rgba(220, 220, 220, 0.164) !important;
+    text-shadow: rgb(255, 255, 255) 5px 5px 15px, white -5px -5px 20px, white 10px 10px 20px, white -10px -10px 20px, white 20px 20px 20px, white -20px -20px 20px;
+    transition: 5s ease-out;
+}
+.parkingplace:hover
+{
+    background-color: greenyellow !important;
+    border: 2px solid brown !important;
+
+}
+.background
+{
+    background-image: url('../../Images/CarParking.jpg');
+    height: 100vh;
+}

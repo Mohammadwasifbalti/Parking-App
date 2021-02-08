@@ -1,0 +1,30 @@
+.Navbar{
+    background-color: black;
+}
+.Navbar a
+{
+    text-decoration: none;
+}
+.Buttons{
+    font-size: 1.3vw !important;
+    color: white !important;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vw 0 !important;
+    font-weight: 600 !important;
+    border-right: 1px solid rgb(175, 175, 175) !important;
+    border-left: 1px solid rgb(175, 175, 175) !important;
+    border-bottom: 2px solid gray !important;
+}
+.Buttons:hover
+{
+    border-bottom: 2px solid white !important;
+    padding: 1vw 0 !important;
+}
+.userName 
+{
+    padding: 0 1rem;
+    text-align: right;
+    color: rgb(94, 93, 93);
+    font-weight: 500;
+}

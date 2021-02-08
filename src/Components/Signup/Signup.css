@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    padding-top: 1vw;
+}
+.bgimg
+{
+    background-image: url("../../Images/CarParking.jpg");
+    filter: blur(18px);
+  -webkit-filter: blur(08px);
+  opacity: 0.85;
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body{
+    position: absolute;
+    z-index: 2;
+}
+.signUpHeading, .mainheading, .mainheadingSignUp{
+    font-size: 3.3vw;
+    color: black;
+    text-decoration: underline red double;
+    text-transform: uppercase;
+    text-shadow: rgb(255, 255, 255) 5px 5px 20px, white -5px -5px 20px;
+}
+.mainheadingSignUp{
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+    text-shadow: white 2px 2px 20px, white -2px -2px 15px;
+}
+.SignupPanel
+{
+    background-color: rgba(255, 255, 255, 0.514); /* Fallback color */
+    overflow: hidden;
+    border: 3px solid black;
+    margin: auto;
+    width: 60% !important;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    margin: auto !important;
+}
+@media only screen and (max-width: 600px) {
+    .SignupPanel{
+        width: 90% !important;
+    }
+    }
+.error{
+    color: red;
+}
